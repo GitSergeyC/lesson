@@ -5,6 +5,27 @@ function greet(name) {
 }
 console.log(greet("Danil"));
 
+// task #2
+function printSumAndProduct(n){
+	let sumNumber = 0;
+	let factorialNumber = 1;
+	for (let index = 1; index <= n; index++){
+		sumNumber += index;
+		factorialNumber *= index;
+	}
+	console.log('Сумма чисел:', sumNumber);
+	console.log('Факториал чисел:', factorialNumber);
+}
+printSumAndProduct(10)
+
+// task #3
+function countDown(n){
+	for (let index = n; index >= 1; index--){
+		console.log(index)
+	}
+}
+countDown(5)
+
 //task #4
 function getArraySum(undestend) {
     let sumArray = 0;
