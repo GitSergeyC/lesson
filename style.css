@@ -12,6 +12,7 @@
 	position: relative;
 	width: 40px;
 	height: 40px;
+	cursor: pointer;
 }
 .arow-left {
 	right: 440px
@@ -32,7 +33,16 @@
 	background-color: gray;
 	width: calc(1200px - 200px);
 	height: calc(200px - 50px);
+	opacity: 0;
+	transition: opacity 0.5s ease;
+
 }
+
+.slader.activ{
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
 .miniatures {
 	position: relative;
 	display: flex;
@@ -46,6 +56,11 @@
 	margin-left: 10px;
 	cursor: pointer;
 }
+
+.miniature.activ{
+background-color: white;
+}
+
 .arow-right {
 	left: 440px;
 }
