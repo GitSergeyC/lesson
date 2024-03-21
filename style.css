@@ -1,0 +1,50 @@
+.contents {
+	background-color: aqua;
+	width: 1200px;
+	height: 200px;
+	margin: 0 auto;
+	display: flex; /* Добавляем */
+	justify-content: center; /* Добавляем */
+	align-items: center; /* Добавляем */
+}
+.arow {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+}
+.arow-left {
+	right: 1300px
+
+}
+.sladers {
+
+	position: relative;
+	display: flex;
+	justify-content: center; /* Добавляем */
+	align-items: center; /* Добавляем */
+}
+
+.slader {
+	font-size: 32px;
+	position: absolute;
+	background-color: gray;
+	width: calc(1200px - 200px);
+	height: calc(200px - 50px);
+
+}
+.miniatures {
+	position: absolute;
+	display: flex;
+	left: 340px;
+	top: 30px;
+}
+.miniature {
+	background-color: aqua;
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.arow-right {
+	left: 1300px;
+}
